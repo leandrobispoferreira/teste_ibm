@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--header-bgcolor);
+}
+.footer-content {
+    background-color: var(--header-bgcolor);
+    align-items: center;
+    width: 100%;
+    max-width: var(--footer-max-width);
+    height: 100%;
+    min-height: var(--footer-height);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-item {
+    padding: 10px;
+    color: white;
+}
+
+.footer-item > a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-item > a:hover {
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-icon-media {
+    margin: 5px;
+    cursor: pointer;
+}

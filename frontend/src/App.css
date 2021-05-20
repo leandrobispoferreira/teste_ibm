@@ -1,0 +1,71 @@
+:root {
+  --fuse-blue: #004090;
+  --ligh-gray: #dddddd;
+  --ligh-highlight-gray: #eeeeee;
+  --black-container: #0B0C10;
+
+  --logo-width: 80px;
+  --logo-heigth: 40px;
+  --right-bar-width: 120px;
+  --right-bar-icon-notifications: 60px;
+  --right-bar-icon-account: 60px;
+
+  --header-nav-divisor-color: #1f2833;
+  --header-height: 60px;
+  --header-max-width: 1500px;
+  --menu-height: 70px;
+  
+
+  --header-bgcolor: #1f2833;
+
+  --nav-menu-height: 70px;
+
+  --content-background-color: #f5f5f5;
+
+  --footer-height: 210px;
+  --footer-max-width: 500px;
+}
+
+body {
+  margin: 0;
+}
+
+/* Grid layout */
+.app {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 
+      var(--header-height)
+      1fr
+      var(--footer-height);
+  grid-template-areas:
+      "header"
+      "content"
+      "footer";
+  height: 100vh;
+}
+
+aside.logo {
+  grid-area: logo;
+}
+
+header.header {
+  grid-area: header;
+}
+
+header.menu-area {
+  grid-area: menu;
+}
+
+main.content {
+  grid-area: content;
+}
+
+footer.footer {
+  grid-area: footer;
+}
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}

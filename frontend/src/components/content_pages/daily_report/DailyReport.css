@@ -1,0 +1,78 @@
+.container {
+    background-color: var(--black-container);
+    padding: 80px;
+    margin: auto auto;
+    border-radius: 5px;
+}
+
+.search {
+    margin: auto auto;
+}
+
+.page-title {
+    font-size: 20px;
+    color: white;
+}
+
+.form-item {
+    margin: 15px 0px 15px 0px;
+}
+
+.input-box {
+    background: transparent;
+    border: 1px solid white;
+    height: 30px;
+    width: 400px;
+    margin: 0px 10px 0px 0px;
+    color: white;
+    font-size: 15px;
+}
+
+.label-input {
+    margin: 5px 5px 5px 0px;
+    color: white;
+    font-size: 15px;
+}
+
+.form-buttom {
+    border: 1px solid white;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.select-box {
+    
+    height: 45px;
+    width: 190px;
+    margin: 0px 10px 0px 0px;
+    color: white;
+
+    border: 1px solid white;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: transparent;
+}
+
+.search-button {
+    background: transparent;
+    border-radius: 2px;
+    border: solid 1px white;
+    color: white;
+    height: 40px;
+    width: 120px;
+    height: 45px;
+    width: 150px;
+    font-size: 1.25rem;
+}
+
+.search-button:hover {
+    background: white;
+    border-color: white;
+    color: black;
+    cursor: pointer;
+}
+

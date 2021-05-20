@@ -1,0 +1,41 @@
+.nav {
+    background-color: var(--header-bgcolor);
+    
+}
+
+.nav-content {
+    background-color: var(--header-bgcolor);
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: var(--header-max-width);
+    min-height: var(--header-height);
+    margin: 0 auto;
+}
+
+.nav-icon {
+    position: relative;
+    top: 3px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+div[class*="nav_menu_item"] {
+    cursor: pointer;
+    color: white;
+    height: var(--header-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in;
+    padding: 0px 50px 0px 50px;
+    box-shadow: -1px 8px 10px -1px rgba(0,0,0,0.23);
+}
+
+div[class*="nav_menu_item"]:hover {
+    background: linear-gradient(to top, #225492 0%, var(--fuse-blue)  100%);;
+}
